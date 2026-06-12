@@ -1,7 +1,19 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Programs from "../components/Programs";
+import Coaches from "../components/Coaches";
+import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Accueil</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Programs />
+      <Coaches />
+      <Testimonials />
+      <Footer />
+    </>
   );
 }
