@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-black text-white text-center p-6">
-      <p>© 2026 FitCoach - Tous droits réservés</p>
+    <footer className="bg-black text-white text-center py-6">
+      <p>© 2026 PulseFit - Coaching Sportif</p>
     </footer>
   );
 }

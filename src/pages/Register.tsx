@@ -37,12 +37,12 @@ export default function Register() {
             className="w-full p-3 rounded-lg bg-white/20 text-white placeholder-white border border-white/30"
           />
 
-          <button
-            type="submit"
-            className="w-full bg-green-600 text-white p-3 rounded-lg hover:bg-green-700"
+          <Link
+            to="/dashboard"
+            className="block w-full bg-green-600 text-white p-3 rounded-lg hover:bg-green-700 text-center"
           >
             S'inscrire
-          </button>
+          </Link>
         </form>
 
         <div className="mt-6 text-center text-white">
@@ -50,6 +50,12 @@ export default function Register() {
             Déjà un compte ?{" "}
             <Link to="/login" className="hover:underline">
               Se connecter
+            </Link>
+          </p>
+
+          <p className="mt-2">
+            <Link to="/" className="hover:underline">
+              ← Retour à l'accueil
             </Link>
           </p>
         </div>

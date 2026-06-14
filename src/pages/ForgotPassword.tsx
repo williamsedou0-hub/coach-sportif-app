@@ -28,9 +28,17 @@ export default function ForgotPassword() {
         </form>
 
         <div className="mt-6 text-center text-white">
-          <Link to="/login" className="hover:underline">
-            Retour à la connexion
-          </Link>
+          <p>
+            <Link to="/login" className="hover:underline">
+              Retour à la connexion
+            </Link>
+          </p>
+
+          <p className="mt-2">
+            <Link to="/" className="hover:underline">
+              ← Retour à l'accueil
+            </Link>
+          </p>
         </div>
       </div>
     </div>
